@@ -1,0 +1,11 @@
+---
+- name: Sample Playbook
+  hosts: aws_servers
+  gather_facts: yes
+
+  tasks:
+    - name: Ping my hosts
+      ansible.builtin.ping:
+    - name: Display a message
+      ansible.builtin.debug:
+        msg: "Hello, Ansible!"
