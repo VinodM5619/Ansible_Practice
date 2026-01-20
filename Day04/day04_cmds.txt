@@ -1,0 +1,1000 @@
+  539  git commit 
+  540  git push origin main 
+  541  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  542  history > ./Day11-12\ -\ Functions/Day11_12Commands.txt
+  543  git ad..
+  544  git add.
+  545  git add .
+  546  git commit 
+  547  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  548  cd ./Day13\ -\ DataSources/
+  549  clear
+  550  tf init
+  551  tf plan
+  552  tf apply -auto-approve
+  553  tf destroy
+  554  cd ..
+  555  git add .
+  556  git commit 
+  557  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  558  clear
+  559  cd ./Day14\ -\ Mini\ Pjct-1/
+  560  clear
+  561  tf init
+  562  tf plan
+  563  tf refresh
+  564  tf plan
+  565  tf apply -auto-approve
+  566  tf destroy
+  567  cd ..
+  568  git add .
+  569  git commit 
+  570  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  571  cd ./Day15\ -\ Mini\ Pjct-2/
+  572  clear
+  573  aws ec2 create-key-pair --key-name vpc-peering-demo --region us-east-1 --query 'KeyMaterial' --output text > vpc-peering-demo.pem
+  574  aws ec2 create-key-pair --key-name vpc-peering-demo --region us-west-2 --query 'KeyMaterial' --output text > vpc-peering-demo-west.pem
+  575  chmod 400 vpc-peering-demo.pem
+  576  chmod 400 ./vpc-peering-demo-west.pem
+  577  clear
+  578  alias tf=terraform
+  579  tf init
+  580  tf plan
+  581  tf apply -auto-approve
+  582  tf destroy
+  583  history > Day15Commands.txt
+  584  cd ..
+  585  git add .
+  586  git commit 
+  587  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  588  clear
+  589  git add .
+  590  git commit 
+  591  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  592  git add .
+  593  git commit 
+  594  cp -rf ./Day15\ -\ Mini\ Pjct-2/ Day16
+  595  cd ./Day16\ -\ Mini\ Pjct-3/
+  596  tf init
+  597  tf plan
+  598  tf refresh
+  599  tf init
+  600  tf plan
+  601  tf init
+  602  tf plan
+  603  clear
+  604  tf plan
+  605  tf validate
+  606  tf refresh
+  607  tf plan
+  608  tf plan | grep -i "will be created"
+  609  tf apply -auto-approve
+  610  tf plan
+  611  tf apply -auto-approve
+  612  tf plan
+  613  tf apply -auto-approve
+  614  tf destroy
+  615  cd ..
+  616  history > ./Day16\ -\ Mini\ Pjct-3/Day16commands.txt
+  617  git add .
+  618  git commit 
+  619  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  620  cd ./Day16\ -\ Mini\ Pjct-3/
+  621  tf plan
+  622  tf plan | grep -i "will be created"
+  623  tf apply -auto-approve
+  624  tf destroy
+  625  cd ..
+  626  git add .
+  627  git commit 
+  628  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  629  cd ..
+  630  git clone https://github.com/piyushsachdeva/Terraform-Full-Course-Aws/tree/main
+  631  git clone https://github.com/piyushsachdeva/Terraform-Full-Course-Aws.git
+  632  ls -ltr
+  633  cp -rf ./Terraform-Full-Course-Aws/lessons/day17/ ./AWS_Terraform
+  634  cd AWS_Terraform/
+  635  cd day17\ -\ Mini\ Pjct-4/
+  636  clear
+  637  tf init
+  638  ls -ltr
+  639  chomod 775 swap-environments.sh
+  640  chmod 775 swap-environments.sh
+  641  ./swap-environments.sh 
+  642  sudo apt-get install jq
+  643  ./swap-environments.sh 
+  644  ls -ltr
+  645  package-apps.sh
+  646  chmod 775 package-apps.sh
+  647  ./package-apps.sh 
+  648  tf init
+  649  tf plan
+  650  sudo apt update
+  651  sudo apt install zip
+  652  ./package-apps.sh 
+  653  tf plan
+  654  tf apply -auto-apply
+  655  tf apply
+  656  aws elasticbeanstalk list-platform-versions   --filters "PlatformName=Node.js" "PlatformVersion=20" "PlatformBranchName=Amazon Linux 2023"
+  657  tf apply
+  658  aws s3 ls
+  659  aws elasticbeanstalk list-platform-versions --filters "PlatformName=Node.js" "PlatformVersion=20" "PlatformBranchName=Amazon Linux 2023"
+  660  aws elasticbeanstalk list-platform-versions 
+  661  tf apply
+  662  cd ..
+  663  cd ./day17\ -\ Mini\ Pjct-4/
+  664  history > Day17commands.txt
+  665  cd ..
+  666  git add .
+  667  git commit 
+  668  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  669  cd ./day17\ -\ Mini\ Pjct-4/
+  670  tf destroy
+  671  clear
+  672  cd ..
+  673  clear
+  674  pwd
+  675  cd /var/log/
+  676  ls -ltr
+  677  cat bootstrap.log | tail -10
+  678  cat bootstrap.log | grep "error"
+  679  journalctl 
+  680  journalctl  -xe
+  681  journalctl -u nginx
+  682  journalctl -u postgres
+  683  df -h
+  684  du -sh
+  685  ls -ldr
+  686  mount
+  687  systemctl 
+  688  clear
+  689  crontab
+  690  cd .. 
+  691  cd /home
+  692  cd vinod/
+  693  clear
+  694  crontab
+  695  crontab -l
+  696  crontab -e
+  697  clear
+  698  uptime 
+  699  hostnamectl
+  700  ip a
+  701  ip r
+  702  top
+  703  htop
+  704  free 
+  705  vmstat
+  706  ls 
+  707  cd AWS_Terraform/
+  708  history
+  709  history > linuxcommands_practice_1.txt
+  710  cd ..
+  711  cp -rf ./Terraform-Full-Course-Aws/day18 ./AWS_Terraform/
+  712  cp -rf ./Terraform-Full-Course-Aws/lessons/day18 ./AWS_Terraform/
+  713  cd AWS_Terraform/
+  714  cd ./Day18\ -\ Mini\ Pjct-5/
+  715  tf init
+  716  cd terraform/
+  717  tf init
+  718  cd ../scripts/
+  719  ./deploy.sh 
+  720  sudo apt install docker
+  721  ./deploy.sh 
+  722  sudo apt-get update
+  723  sudo apt-get install ca-certificates curl gnupg lsb-release
+  724  sudo mkdir -p /etc/apt/keyrings
+  725  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  726  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  727    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  728  sudo apt-get update
+  729  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  730  docker --version
+  731  sudo apt  install docker.io 
+  732  ./deploy.sh 
+  733  systemctl status docker
+  734  systemctl start docker
+  735  sudo systemctl start docker
+  736  ./deploy.sh 
+  737  sudo systemctl enable docker
+  738  docker ps
+  739  ls -ltr
+  740  sudo usermod -aG docker $USER
+  741  docker ps
+  742  newgrp docker
+  743  docker ps
+  744  sudo docker ps
+  745  ./deploy.sh 
+  746  tf destroy
+  747  cd ..
+  748  cd terraform/
+  749  tf destroy
+  750  alias tf=terraform
+  751  tf destroy
+  752  cd ..
+  753  git add .
+  754  git commit 
+  755  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  756  cd ..
+  757  cp -rf ./Terraform-Full-Course-Aws/lessons/Day19 ./AWS_Terraform/Day19\ -\ Provisioners/
+  758  cp -rf ./Terraform-Full-Course-Aws/lessons/day19 ./AWS_Terraform/Day19\ -\ Provisioners/
+  759  cd AWS_Terraform/
+  760  ls -ltr
+  761  cd Day19\ -\ Provisioners/
+  762  clear
+  763  ls -ltr
+  764  ls
+  765  cd ..
+  766  cp -rf ./Terraform-Full-Course-Aws/lessons/day19 ./AWS_Terraform/Day19\ -\ Provisioners/
+  767  cp -rf ./Terraform-Full-Course-Aws/lessons/day19/ ./AWS_Terraform/Day19\ -\ Provisioners/
+  768  cp  ./Terraform-Full-Course-Aws/lessons/day19/ ./AWS_Terraform/Day19\ -\ Provisioners/
+  769  cp -r ./Terraform-Full-Course-Aws/lessons/day19/ ./AWS_Terraform/Day19\ -\ Provisioners/
+  770  cd AWS_Terraform/
+  771  cd Day19\ -\ Provisioners/
+  772  ls -ltr
+  773  cd day19/
+  774  ls -ltr
+  775  cd .
+  776  cd ..
+  777  pwd
+  778  cd /home/vinod/
+  779  ls -ltr
+  780  cd AWS_Terraform/
+  781  ls -ltr
+  782  cd ..
+  783  cp -rf ./Terraform-Full-Course-Aws/lessons/day19/ ./AWS_Terraform/Day19
+  784  cd AWS_Terraform/
+  785  cd Day19\ -\ Provisioners/
+  786  clear
+  787  aws ec2 create-key-pair --key-name terraform-demo-key   --query 'KeyMaterial' --output text > terraform-demo-key.pem
+  788  chmod 400 terraform-demo-key.pem
+  789  tf init
+  790  alias tf=terraform
+  791  tf init
+  792  cd code/
+  793  ls -ltr
+  794  cd provisioner-demo/
+  795  tf init
+  796  tf plan
+  797  tf init -reconfigure
+  798  tf plan
+  799  terraform apply   -var='key_name=terraform-demo-key'   -var='private_key_path=./terraform-demo-key.pem'
+  800  aws ec2 create-key-pair --key-name terraform-demo-key   --query 'KeyMaterial' --output text > terraform-demo-key.pem
+  801  terraform apply   -var='key_name=terraform-demo-key'   -var='private_key_path=./terraform-demo-key.pem'
+  802  ls -ltr
+  803  aws ec2 create-key-pair --key-name terraform-demo-key   --query 'KeyMaterial' --output text > terraform-demo-key.pem
+  804  aws ec2 create-key-pair --key-name terraform-demovinod-key   --query 'KeyMaterial' --output text > terraform-demo-vinod-key.pem
+  805  ls -ltr
+  806  chmod 400 terraform-demo-key.pem
+  807  ls -ltr
+  808  chmod 460 terraform-demo-key.pem
+  809  ls -ltr
+  810  chmod 660 terraform-demo-key.pem
+  811  ls -ltr
+  812  terraform apply   -var='key_name=terraform-demo-key'   -var='private_key_path=./terraform-demo-vinod-key.pem'
+  813  aws ec2 create-key-pair --key-name vinod-demo-key   --query 'KeyMaterial' --output text > vinod-demo-key.pem
+  814  chmod 400 vinod-demo-key.pem
+  815  ls -ltr
+  816  terraform apply   -var='key_name=vinod-demo-key'   -var='private_key_path=./vinod-demo-key.pem'
+  817  aws ec2 create-key-pair --key-name vinod-demo-key   --query 'KeyMaterial' --output text > vinod-demo-key.pem --region us-east-1
+  818  ls -ltr
+  819  rm vinod-demo-key.pem 
+  820  ls -ltr
+  821  aws ec2 create-key-pair --key-name vinod-demo-key   --query 'KeyMaterial' --output text > vinod-demo-key.pem --region us-east-1
+  822  chmod 400 vinod-demo-key.pem
+  823  ls -ltr
+  824  terraform apply   -var='key_name=vinod-demo-key'   -var='private_key_path=./vinod-demo-key.pem'
+  825  tf taint
+  826  tf taint aws_instance.demo
+  827  terraform apply   -var='key_name=vinod-demo-key'   -var='private_key_path=./vinod-demo-key.pem'
+  828  tf taint aws_instance.demo
+  829  terraform apply   -var='key_name=vinod-demo-key'   -var='private_key_path=./vinod-demo-key.pem'
+  830  tf destroy
+  831  terraform destroy   -var='key_name=vinod-demo-key'   -var='private_key_path=./vinod-demo-key.pem'
+  832  history > Day19commands.txt
+  833  cd ..
+  834  git add .
+  835  git commit 
+  836  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  837  clear
+  838  ls -ltr
+  839  cd ..
+  840  cp -rf ./Terraform-Full-Course-Aws/lessons/day20/ ./AWS_Terraform/
+  841  cd AWS_Terraform/
+  842  ls -ltr
+  843  clear
+  844  tf init
+  845  cd Day20\ -\ Modules/
+  846  tf init
+  847  cd code
+  848  tf init
+  849  tf plan
+  850  tf plan | grep -i "will be created"
+  851  cd ..
+  852  cd AWS_Terraform/
+  853  git add .
+  854  git commit 
+  855  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  856  clear
+  857  terraform -version
+  858  cd ./Day21\ -\ Policy\ \&\ Governance/
+  859  tf init
+  860  alias tf=terraform
+  861  tf init
+  862  tf plan
+  863  tf apply -auto-approve
+  864  aws s3 mb s3://test-violation-$(date +%s)
+  865  aws s3 ls
+  866  aws s3 delete-bucket --bucket test-violation-1767449865 
+  867  aws s3 rm delete-bucket --bucket test-violation-1767449865 
+  868  aws s3 rm arn:aws:s3:::test-violation-1767449865
+  869  aws s3 rm delete-bucket 
+  870  aws s3api delete-bucket --bucket
+  871  tf destroy
+  872  cd ..
+  873  git add .
+  874  cd ./AWS_Terraform/
+  875  git add .
+  876  git commit 
+  877  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  878  cd ..
+  879  cd ./Terraform-Full-Course-Aws/lessons/day22/ ./AWS_Terraform/
+  880  cd ./Terraform-Full-Course-Aws/lessons/day22/ ./AWS_Terraform/Day22
+  881  cd ./Terraform-Full-Course-Aws/lessons/day22/ ./AWS_Terraform/
+  882  cp -rf ./Terraform-Full-Course-Aws/lessons/day22/ ./AWS_Terraform/
+  883  cd ..
+  884  cd pwd
+  885  pwd
+  886  cd /home/vinod/
+  887  pwd
+  888  cd ./AWS_Terraform/
+  889  cd ./day22/
+  890  ls -ltr
+  891  pwd
+  892  clear
+  893  tf init
+  894  tf plan
+  895  tf apply -auto-apply
+  896  tf apply
+  897  tf destroy 
+  898  cd ..
+  899  cd ./AWS_Terraform/
+  900  git add .
+  901  git commit 
+  902  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  903  cd ./Day25\ -\ tf\ import/
+  904  clear
+  905  tf init
+  906  tf plan
+  907  tf apply
+  908  tf destroy
+  909  tf plan
+  910  tf apply 
+  911  tf import aws_s3_bucket.config_bucket
+  912  tf import aws_s3_bucket
+  913  terraform import 
+  914  terraform import aws_s3_bucket config_bucket
+  915  terraform import aws_s3_bucket.config_bucket arn:aws:s3:::my-unique-s3-231
+  916  terraform import aws_s3_bucket.config_bucket my-unique-s3-231/configs/appsettings.json"
+  917  terraform import aws_s3_bucket.config_bucket my-unique-s3-231/configs/appsettings.json
+  918  tf apply
+  919  terraform import aws_s3_bucket.config_bucket my-unique-s3-231
+  920  tf apply
+  921  cd ..
+  922  git add .
+  923  git commit 
+  924  git push ./https://github.com/ --force
+  925  cd ./Day25\ -\ tf\ import/
+  926  history
+  927  history > commands.txt
+  928  cd ..
+  929  git add .
+  930  git commit 
+  931  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  932  git status
+  933  cd ./Day03\ -\ Resource\ S3\ creation/
+  934  clear
+  935  ls -ltr
+  936  tf init
+  937  terraform init -migrate-state
+  938  tf plan
+  939  tf init -reconfigure
+  940  tf plan
+  941  tf init -reconfigure
+  942  tf plan
+  943  tf init
+  944  tf init -reconfigure
+  945  tf refresh
+  946  tf show
+  947  tf apply 
+  948  tf init -migrate-state
+  949  tf plan
+  950  tf init
+  951  tf init refresh
+  952  tf init -reconfigure
+  953  tf plan
+  954  tf apply
+  955  tf plan
+  956  tf apply
+  957  tf destroy
+  958  cd ..
+  959  git add .
+  960  git commit 
+  961  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  962  git add .
+  963  git commit 
+  964  git push https://github.com/VinodM5619/Terraform_AWS.git --./Day11-12\ -\ Functions/
+  965  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  966  cd ./Day03\ -\ Resource\ S3\ creation/
+  967  terraform login
+  968  tf init
+  969  tf plan
+  970  tf apply
+  971  tf destroy
+  972  cd .. 
+  973  git add .
+  974  git status
+  975  git commit 
+  976  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  977  clear
+  978  git checkout -b feat/import-demo
+  979  git add Day25 - tf import/commands.txt
+  980  git add "Day25 - tf import"/commands.txt
+  981  git commit -m "feat/import-demo"
+  982  git push origin "feat/import-demo"
+  983  git push https://github.com/VinodM5619/Terraform_AWS.git "feat/import-demo"
+  984  history
+  985  history > ./Day25\ -\ tf\ import/commands.txt 
+  986  git checkout -b feat/import-demo
+  987  git checkout feat/import-demo
+  988  git add "Day25 - tf import"/commands.txt
+  989  git commit -m "feat/import-demo"
+  990  git push https://github.com/VinodM5619/Terraform_AWS.git "feat/import-demo"
+  991  git add .
+  992  git status
+  993  git commit 
+  994  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  995  git add .
+  996  git commit 
+  997  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+  998  git checkout main 
+  999  git pull origin master
+ 1000  git pull https://github.com/VinodM5619/Terraform_AWS.git
+ 1001  cp -rf ./Day27\ -\ Github\ Actions/.github/ .
+ 1002  git add . 
+ 1003  git commit 
+ 1004  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1005  cd ..
+ 1006  cd ./AWS_Terraform/
+ 1007  cd ..
+ 1008  cp ./Terraform-Full-Course-Aws/lessons/day27/ ./AWS_Terraform/
+ 1009  cp -rf ./Terraform-Full-Course-Aws/lessons/day27/ ./AWS_Terraform/
+ 1010  git add .
+ 1011  cd ./AWS_Terraform/
+ 1012  git add .
+ 1013  git commit 
+ 1014  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1015  git add .
+ 1016  git commit 
+ 1017  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1018  cp ./Day27\ -\ Github\ Actions/code/.github/ .
+ 1019  cp -rf ./Day27\ -\ Github\ Actions/code/.github/ .
+ 1020  git add .
+ 1021  git commit 
+ 1022  git push https://github.com/VinodM5619/Terraform_AWS.git --./Day11-12\ -\ Functions/
+ 1023  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1024  cp -rf ./Day27\ -\ Github\ Actions/code/.github/ ./Day27\ -\ Github\ Actions/
+ 1025  git add .
+ 1026  git commit 
+ 1027  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1028  git add .
+ 1029  git commit 
+ 1030  git add .
+ 1031  git commit 
+ 1032  git add .
+ 1033  git commit 
+ 1034  git add .
+ 1035  git commit 
+ 1036  git checkout feat/import-demo
+ 1037  git checkin feat/import-demo
+ 1038  git checkout main 
+ 1039  cd ./Day27\ -\ Github\ Actions/
+ 1040  ls 
+ 1041  cd ./code/
+ 1042  ls
+ 1043  git checkout feat/import-demo
+ 1044  git status
+ 1045  git add .
+ 1046  git status
+ 1047  cd ..
+ 1048  git add .
+ 1049  git commit 
+ 1050  cd ../Terraform-Full-Course-Aws/lessons/day27/code/
+ 1051  ls 
+ 1052  cp -rf ./dev.tfvars ./prod.tfvars ./test.tfvars ../../../../AWS_Terraform/Day27\ -\ Github\ Actions/code/
+ 1053  cd ..
+ 1054  cd..
+ 1055  cd ..
+ 1056  cd ./AWS_Terraform/
+ 1057  ls ./Day27\ -\ Github\ Actions/
+ 1058  ls ./linuxcommands_practice_1.txt
+ 1059  ls code
+ 1060  cd code
+ 1061  git add .
+ 1062  git commit 
+ 1063  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1064  git add .
+ 1065  git commit 
+ 1066  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1067  git add .
+ 1068  git commit 
+ 1069  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1070  cp -rf ./Day27\ -\ Github\ Actions/.github/ .
+ 1071  git add .
+ 1072  git commit 
+ 1073  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1074  git checkout master
+ 1075  git checkout origin
+ 1076  git checkout main origin
+ 1077  git checkout 
+ 1078  git show
+ 1079  cd /home
+ 1080  sudo pip3 install ansible==4.7.0
+ 1081  sudo pip install ansible==4.7.0
+ 1082  sudo yum install -y python3 python3-pip
+ 1083  sudo apt-get update -y
+ 1084  sudo apt-get install -y python3 python3-pip
+ 1085  sudo pip3 install ansible==4.7.0
+ 1086  ansible --version
+ 1087  which version
+ 1088  cd /usr
+ 1089  cd local
+ 1090  cd bin
+ 1091  ls -ld
+ 1092  ls -lt
+ 1093  ansible --version
+ 1094  export PATH=$PATH:/usr/local/bin
+ 1095  ls -ltr
+ 1096  cd ansible-doc
+ 1097  cat ansible-doc
+ 1098  cat ./ansible-inventory
+ 1099  clear
+ 1100  history
+ 1101  cd ..
+ 1102  cd /home
+ 1103  ls -ltr
+ 1104  cd vinod
+ 1105  ls -ltr
+ 1106  cd ./AWS_Terraform/
+ 1107  history > install_ansible.txt
+ 1108  git add .
+ 1109  git commit 
+ 1110  git push https://github.com/VinodM5619/Terraform_AWS.git --force
+ 1111  cd ..
+ 1112  ls -ltr
+ 1113  mkdir Ansible_Practice
+ 1114  cd ./Ansible_Practice/
+ 1115  cp ../AWS_Terraform/install_ansible.txt .
+ 1116  ls -ltr
+ 1117  git add .
+ 1118  git init
+ 1119  git add .
+ 1120  git commit 
+ 1121  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1122  git checkout main
+ 1123  git checkout origin
+ 1124  git checkout
+ 1125  git status
+ 1126  git checkout main
+ 1127  git checkout origin
+ 1128  git branch -m main
+ 1129  git status
+ 1130  git pull
+ 1131  git pull 
+ 1132  git add .
+ 1133  git commit
+ 1134  git init
+ 1135  cd Ansible_Practice/
+ 1136  git init
+ 1137  git add .
+ 1138  git commit 
+ 1139  git branch -m main
+ 1140  git show
+ 1141  git add 
+ 1142  git add .
+ 1143  git commit 
+ 1144  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1145  git remote add origin https://github.com/VinodM5619/Ansible_Practice.git
+ 1146  git push -u origin main 
+ 1147  git pull https://github.com/VinodM5619/Ansible_Practice.git
+ 1148  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1149  cat firstfile.yaml
+ 1150  touch firstfile.yam;
+ 1151  git add .
+ 1152  git commit "updated"
+ 1153  git commit -m "updated"
+ 1154  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1155  cd /etc/
+ 1156  ls 
+ 1157  cd ..
+ 1158  cd ./home
+ 1159  cd ./vinod/
+ 1160  pwd
+ 1161  cd ./Ansible_Practice/
+ 1162  clear
+ 1163  which ansible
+ 1164  cd /usr/local/bin/ansi
+ 1165  cd /usr/local/bin/ansible
+ 1166  cd /usr/local/bin
+ 1167  ls 
+ 1168  ls -ltr
+ 1169  cat ansible-con
+ 1170  cat ansible-config
+ 1171  ls -ltr
+ 1172  cd ansible
+ 1173  cd ./ansible/hosts
+ 1174  cat ansible-inventory
+ 1175  clear
+ 1176  cd /home/vinod
+ 1177  clear
+ 1178  cd /home/vinod
+ 1179  clear
+ 1180  cd ./Ansible_Practice/
+ 1181  clear
+ 1182  cd ./Day02/
+ 1183  clear
+ 1184  evhr but etc var home root bin usr tmp
+ 1185  clear
+ 1186  ansible --version
+ 1187  which ansible
+ 1188  ansible -i inventory.ini -m ping all
+ 1189  cat inventory.ini
+ 1190  touch inventory.ini
+ 1191  vi inventory.ini 
+ 1192  cat inventory.ini 
+ 1193  ansible -i inventory.ini -m ping all
+ 1194  ssh-copy-id -f .  ubuntu@54.160.141.15
+ 1195  ls /home/vinod
+ 1196  ssh-copy-id /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1197  ssh-copy-id -f  /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1198  ssh-copy-id -f "/home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1199  ssh-copy-id -f "-o IdentityFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1200  systemctl status ssh
+ 1201  sudo systemctl restart ssh
+ 1202  yum install ssh
+ 1203  apt-get install ssh
+ 1204  sudo ssh-copy-id
+ 1205  sudo ssh-copy-id -f "-o IdentityFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1206  scp -i /home/vinod/vinod-aws-keypair.pem /home/vinod/vinod-aws-keypair.pem ubuntu@<AWS-IP>:/home/ubuntu/
+ 1207  scp -i /home/vinod/vinod-aws-keypair.pem /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15:/home/ubuntu/
+ 1208  scp -i /home/vinod/vinod-aws-keypair.pem  ubuntu@54.160.141.15:/home/ubuntu/
+ 1209  systemctl status ssh
+ 1210  sudo apt update
+ 1211  sudo apt install -y openssh-server
+ 1212  sudo ssh-copy-id -f "-o IdentityFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1213  sudo systemctl ssh
+ 1214  systemctl status ssh
+ 1215  ssh -i /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1216  ls -ltr
+ 1217  ls /home/vinod/
+ 1218  ls -ltr /home/vinod/
+ 1219  chmod 755 vinod-aws-keypair.pem
+ 1220  chmod 755 /home/vinod/vinod-aws-keypair.pem
+ 1221  ls -ltr /home/vinod/
+ 1222  ssh -i /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1223  chmod 400 /home/vinod/vinod-aws-keypair.pem
+ 1224  ssh -i /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1225  ssh -i /home/vinod/vinod-aws-keypair.pem ubuntu@3.93.182.248
+ 1226  ls -ltr /home/vinod/
+ 1227  ssh-copy-id
+ 1228  ls /usr/bin/
+ 1229  /usr/bin/
+ 1230  cd /usr/bin/
+ 1231  clear
+ 1232  sudo ssh-copy-id -f "-o IdentityFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.160.141.15
+ 1233  ssh-copy-id
+ 1234  man ssh-copy-id
+ 1235  ssh-copy-id -i /home/vinod/vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1236  ls /home/vinod/
+ 1237  ssh-keygen -y -f /home/vinod/vinod-aws-keypair.pem > /home/vinod/vinod-aws-keypair.pub
+ 1238  ls /home/vinod
+ 1239  ssh-copy-id -i /home/vinod/vinod-aws-keypair.pub ubuntu@54.160.141.15
+ 1240  ssh-copy-id -i "/home/vinod/vinod-aws-keypair.pub" ubuntu@54.160.141.15
+ 1241  ssh-copy-id -i -f  "/home/vinod/vinod-aws-keypair.pub" ubuntu@54.160.141.15
+ 1242  ssh-copy-id 
+ 1243  ssh-copy-id -f /home/vinod/vinod-aws-keypair.pub ubuntu@54.160.141.15
+ 1244  cd /home/vinod/
+ 1245  ssh-copy-id -i vinod-aws-keypair.pub ubuntu@54.160.141.15
+ 1246  pwd
+ 1247  ls
+ 1248  ssh-copy-id -i 'vinod-aws-keypair.pub' ubuntu@54.160.141.15
+ 1249  ls
+ 1250  chmod 600 vinod-aws-keypair.pem
+ 1251  ssh-copy-id -i vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1252  ssh-copy-id -i vinod-aws-keypair.pub ubuntu@54.160.141.15
+ 1253  cat vinod-aws-keypair.pub | ssh -i vinod-aws-keypair.pem ubuntu@54.160.141.15   "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+ 1254  ssh ubuntu@54.160.141.15
+ 1255  sudo ssh ubuntu@54.160.141.15
+ 1256  ssh -i vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1257  cat vinod-aws-keypair.pub
+ 1258  ssh -i vinod-aws-keypair.pem ubuntu@54.160.141.15
+ 1259  ssh -i ubuntu@54.160.141.15
+ 1260  ssh ubuntu@54.160.141.15
+ 1261  sudo ssh ubuntu@54.160.141.15
+ 1262  ssh ubuntu@54.160.141.15
+ 1263  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15'
+ 1264  ssh ubuntu@54.160.141.15
+ 1265  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15'
+ 1266  ssh ubuntu@54.160.141.15
+ 1267  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15'
+ 1268  ssh ubuntu@54.160.141.15
+ 1269  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15
+ 1270  '
+ 1271  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.160.141.15'
+ 1272  ssh ubuntu@3.93.182.248
+ 1273  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@3.93.182.248'
+ 1274  ssh ubuntu@3.93.182.248
+ 1275  cd /home/vinod/
+ 1276  pwd
+ 1277  ls -ltr
+ 1278  ubuntu@3.93.182.248
+ 1279  ssh ubuntu@3.93.182.248
+ 1280  sudo ubuntu@3.93.182.248
+ 1281  sudo ssh ubuntu@3.93.182.248
+ 1282  chmod 600 ~/vinod-aws-keypair.pem
+ 1283  ls -ltr
+ 1284  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@3.93.182.248'
+ 1285  ssh manage-node-1
+ 1286  ssh 54.160.141.15
+ 1287  ssh ubuntu@54.160.141.15
+ 1288  sudo ssh ubuntu@54.160.141.15
+ 1289  sudo ssh ubuntu@3.93.182.248
+ 1290  exit
+ 1291  clear
+ 1292  ls -ltr
+ 1293  rm vinod-aws-keypair.pem
+ 1294  rm vinod-aws-keypair.pem\:Zone.Identifier 
+ 1295  rm vinod-aws-keypair.pub 
+ 1296  ls -ltr
+ 1297  clear
+ 1298  ls -ltr
+ 1299  cd ./Ansible_Practice/
+ 1300  ls -ltr
+ 1301  cd Day02/
+ 1302  ls 
+ 1303  cat inventory.ini 
+ 1304  ansible-playbook -i inventory.ini ping all
+ 1305  ansible-playbook -i inventory.ini -m ping all
+ 1306  ansible -i inventory.ini -m ping all
+ 1307  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1308  ls -ltr
+ 1309  cd /home/vinod/
+ 1310  ls -ltr
+ 1311  pwd
+ 1312  ls -ltr
+ 1313  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1314  chmod 400 /home/vinod/vinod-aws-keypair.pem
+ 1315  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1316  ansible -i inventory.ini -m ping all
+ 1317  ls -ltr
+ 1318  pwd
+ 1319  cd Ansible_Practice/
+ 1320  pwd
+ 1321  ls
+ 1322  cd Day02/
+ 1323  ls -ltr
+ 1324  ansible -i inventory.ini -m ping all
+ 1325  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1326  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@13.217.225.205'
+ 1327  ansible -i inventory.ini -m ping all
+ 1328  ansible -i inventory.ini all -m setup | grep ansible_python_interpreter
+ 1329  ansible -i inventory.ini all -m setup | grep python 
+ 1330  ansible -i inventory.ini -m ping all
+ 1331  ansible-playbook -i inventory.ini all
+ 1332  ansible-playbook -i inventory.ini 
+ 1333  ansible-playbook -i inventory.ini playbook.yaml
+ 1334  ansible hosts_to_add_key -m ping all --user Ubuntu -key-file ~/home/vinod/vinod-aws-keypair.pem
+ 1335  ansible hosts_to_add_key -m ping all --user Ubuntu 
+ 1336  systemctl sshd restart
+ 1337  sudo systemctl restart sshd
+ 1338  ansible hosts_to_add_key -m ping all --user Ubuntu 
+ 1339  ansible-playbook -i inventory.ini playbook.yaml
+ 1340  ssh -o 'IdentityFile /home/vinod/vinod-aws-keypair.pem' 'ubuntu@54.234.101.142'
+ 1341  ssh-copy-id
+ 1342  ssh-copy -f "-o IdentifyFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1343  ssh-copy-id -f "-o IdentifyFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1344  cd /usr/bin/
+ 1345  ssh-copy-id -f "-o IdentifyFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1346  ssh-keygen -t rsa
+ 1347  ssh-copy-id -f "-o IdentifyFile /home/vinod/vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1348  cd /home/vinod/.ssh/
+ 1349  ls -ltr
+ 1350  ssh-copy-id -f "-o id_rsa ubuntu@54.234.101.142
+ 1351  ssh-copy-id -f "-o id_rsa" ubuntu@54.234.101.142
+ 1352  ssh-copy-id -f "-o id_rsa.pub" ubuntu@54.234.101.142
+ 1353  ssh-copy -f "-o id_rsa.pub" ubuntu@54.234.101.142
+ 1354  cd /home/vinod/ansi
+ 1355  cd /home/vinod/
+ 1356  cd ./Ansible_Practice/
+ 1357  cd Day02/
+ 1358  git add .
+ 1359  git commit 
+ 1360  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1361  cd /home
+ 1362  ssh-copy-id
+ 1363  clear
+ 1364  cd /home/vinod/Ansible_Practice/
+ 1365  ls
+ 1366  cd Day02/
+ 1367  ls
+ 1368  cd /home/vinod
+ 1369  ls -ltr
+ 1370  ssh-copy-id -f "-o IdentityFile vinod-aws-keypair.pem" ubuntu@54.234.101.142
+ 1371  which ansible
+ 1372  cd /usr/local/bin
+ 1373  ls -ltr
+ 1374  ansible --version
+ 1375  cd ansible 
+ 1376  cd /home/vinod/
+ 1377  ls -ltr
+ 1378  cd /usr/local/bin/
+ 1379  ls -ltr
+ 1380  ls ansible
+ 1381  cd ansibl
+ 1382  cd ansbile
+ 1383  ansible --version
+ 1384  cd ansible
+ 1385  cd /etc/
+ 1386  ls -ltr
+ 1387  ls | grep ansible
+ 1388  ansible --version
+ 1389  cd /home/vinod/.ansible/
+ 1390  ls 
+ 1391  cd ..
+ 1392  cd /home/vinod/.ansible/collections:/usr/share/ansible/collections
+ 1393  cd /home/vinod/.ansible/collections:/usr/share/ansible
+ 1394  ls
+ 1395  /usr/local/bin/ansible
+ 1396  cd /usr/local/bin/ansible
+ 1397  clear
+ 1398  ansible --version
+ 1399  cd /etc/sudoers
+ 1400  cd /etc/
+ 1401  ls -ltr | grep sudo
+ 1402  cd sudoers
+ 1403  cat sudoers
+ 1404  sudo su -
+ 1405  cd /etc/sudoers.d/
+ 1406  ls 
+ 1407  cd ..
+ 1408  cd /etc/sudoers
+ 1409  cat /etc/sudoers
+ 1410  sudo cat /etc/sudoers
+ 1411  cat /etc/sudoers
+ 1412  cd /hom
+ 1413  cd /home/vinod
+ 1414  ls
+ 1415  cd Ansible_Practice/
+ 1416  cd Day02/
+ 1417  ls -ltr
+ 1418  ansible-galaxy role init test
+ 1419  ls -ltr
+ 1420  cd test/
+ 1421  ls -ltr
+ 1422  cd handlers/
+ 1423  ls -ltr
+ 1424  cd ..
+ 1425  ls -ltr
+ 1426  cd ..
+ 1427  cd tesks
+ 1428  ls tasks/
+ 1429  ls -ltr
+ 1430  cd tasks/
+ 1431  ls -ltr
+ 1432  cat main.yml 
+ 1433  sudo su -
+ 1434  clear
+ 1435  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@18.234.206.117
+ 1436  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@35.153.202.100
+ 1437  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@35.153.202.100'
+ 1438  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@54.89.2.4
+ 1439  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@54.89.2.4'
+ 1440  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@54.146.60.10
+ 1441  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@54.146.60.10'
+ 1442  ssh ubuntu@35.153.202.100
+ 1443  ssh ubuntu54.89.2.4
+ 1444  ssh ubuntu@54.89.2.4
+ 1445  ssh ubuntu@54.146.60.10
+ 1446  ls
+ 1447  cd Day02
+ 1448  ls
+ 1449  vi inventory.ini 
+ 1450  ansible -i inventory.ini -m ping all
+ 1451  ansible -i inventory.ini -m shell -a "apt install openjdk" all
+ 1452  ansible -i inventory.ini -m ping ubuntu@54.146.60.10
+ 1453  ansible -i inventory.ini -m ping all
+ 1454  ansible -i inventory.ini -m ping dbserver
+ 1455  ansible -i inventory.ini -m ping app
+ 1456  ansible all -m ansible.builtin.user -a "name=foo password=vinod"
+ 1457  ansible -i inventory.ini -m ansible.builtin.user -a "name=foo password=vinod"
+ 1458  ansible -i inventory.ini -m ansible.builtin.user -a "name=foo password=vinod" all
+ 1459  ansible app -m ansible.builtin.service -a "name=httpd state=started"
+ 1460  ansible -i inventory.ini -m ansible.builtin.service -a "name=httpd state=started" app
+ 1461  ansible -i inventory.ini -m shell -a "sudo ls /etc/" dbserver
+ 1462  ansible -i inventory.ini -m copy -a "content=vinod dest=/root/vinod.txt" dbserver
+ 1463  ansible -i inventory.ini -m copy -a "content=vinod dest=sudo /root/vinod.txt" dbserver
+ 1464  ansible -i inventory.ini -m shell -a "sudo cat "vinod">/root/vinod.txt" dbserver
+ 1465  git add .
+ 1466  git commit 
+ 1467  history
+ 1468  history > inventory_ping.txt
+ 1469  git add .
+ 1470  git commit
+ 1471  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1472  cd ..
+ 1473  cd Day03/
+ 1474  ls
+ 1475  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@54.224.242.13
+ 1476  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@54.224.242.13'
+ 1477  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@100.30.234.49
+ 1478  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@100.30.234.49'
+ 1479  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@3.89.197.64
+ 1480  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@3.89.197.64'
+ 1481  clear
+ 1482  ansible -i inventory.ini -m ping all
+ 1483  ansible-playbook -i inventory.ini first-playbook.yaml 
+ 1484  ssh ubuntu@54.224.242.13
+ 1485  ansible-playbook -i inventory.ini first-playbook.yaml 
+ 1486  ssh ubuntu@3.89.197.64
+ 1487  ansible-playbook -i inventory.ini first-playbook.yaml 
+ 1488  ansible-lint first-playbook.yaml 
+ 1489  ansible-playbook --check first-playbook.yaml 
+ 1490  ansible-playbook --check -i inventory.ini first-playbook.yaml 
+ 1491  ansible-playbook --check -i inventory.ini first-playbook.yaml --verbose
+ 1492  git add .
+ 1493  git commit 
+ 1494  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1495  ansible-galaxy -h
+ 1496  ansible-galaxy role -h
+ 1497  ls ~/.ansible/roles
+ 1498  which roles
+ 1499  ansible-galaxy role install bsmeding.swag_docker
+ 1500  ls
+ 1501  which roles
+ 1502  cd /home/vinod/.ansible/roles/
+ 1503  ls
+ 1504  ls bsmeding.swag_docker/
+ 1505  ls -ltr
+ 1506  cd bsmeding.swag_docker/
+ 1507  ls -ltr
+ 1508  cd /home/vinod/
+ 1509  ls
+ 1510  cd Ansible_Practice/
+ 1511  mkdir Day04
+ 1512  s
+ 1513  ls
+ 1514  mkdir Day01
+ 1515  cp install_ansible.txt ./Day01/
+ 1516  ls
+ 1517  mv Passwordlessauth.txt ./Day01/
+ 1518  mv install_ansible.txt ./Day01/
+ 1519  git add .
+ 1520  git commit -am 'Day01 adds'
+ 1521  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1522  cd Day04
+ 1523  ls
+ 1524  ansible-galaxy role init httpds 
+ 1525  ls -ltr
+ 1526  cd httpds/
+ 1527  ls 
+ 1528  ls -ltr
+ 1529  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@34.207.106.145
+ 1530  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@34.207.106.145'
+ 1531  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@98.91.250.129
+ 1532  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@98.91.250.129'
+ 1533  ssh-copy-id -f "-o IdentityFile ~/.ssh/managed_instance.pem" ubuntu@3.89.61.178
+ 1534  ssh -o ' IdentityFile ~/.ssh/managed_instance.pem' 'ubuntu@3.89.61.178'
+ 1535  cd ..
+ 1536  ansible-playbook -i inventory.ini first-playbook.yaml
+ 1537  history
+ 1538  history > day04_cmds.txt
