@@ -1,0 +1,6 @@
+- name: restart a particular instance by its ID
+  amazon.aws.ec2_instance:
+    region: us-east-1
+    state: restarted
+    instance_ids:
+      - i-09142006071deb253

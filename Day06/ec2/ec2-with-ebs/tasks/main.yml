@@ -1,0 +1,8 @@
+---
+- name: start an instance and Add EBS
+  amazon.aws.ec2_vol:
+    instance: i-09142006071deb253
+    region: us-east-1
+    volume_size: 50
+    volume_type: gp2
+    device_name: /dev/xvdf    
