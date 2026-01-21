@@ -1,16 +1,3 @@
-  646  chmod 775 package-apps.sh
-  647  ./package-apps.sh 
-  648  tf init
-  649  tf plan
-  650  sudo apt update
-  651  sudo apt install zip
-  652  ./package-apps.sh 
-  653  tf plan
-  654  tf apply -auto-apply
-  655  tf apply
-  656  aws elasticbeanstalk list-platform-versions   --filters "PlatformName=Node.js" "PlatformVersion=20" "PlatformBranchName=Amazon Linux 2023"
-  657  tf apply
-  658  aws s3 ls
   659  aws elasticbeanstalk list-platform-versions --filters "PlatformName=Node.js" "PlatformVersion=20" "PlatformBranchName=Amazon Linux 2023"
   660  aws elasticbeanstalk list-platform-versions 
   661  tf apply
@@ -998,3 +985,16 @@
  1643  git commit -am "ec2 module practice"
  1644  git push https://github.com/VinodM5619/Ansible_Practice.git --force
  1645  history > day6_cmds.txt
+ 1646  git add .
+ 1647  git commit -am "history"
+ 1648  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1649  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1650  cd ec2
+ 1651  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass 
+ 1652  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file ../vault.pass -e type=t3.micro
+ 1653  cd ..
+ 1654  git add .
+ 1655  git commit -am "added variable"
+ 1656  git push https://github.com/VinodM5619/Ansible_Practice.git --force
+ 1657  ls -ltr
+ 1658  history > day6_cmds.txt 
