@@ -1,0 +1,6 @@
+---
+- name: Removing the EBS volume
+  amazon.aws.ec2_vol:
+    id: vol-07a3ff608adc2e73e
+    state: absent 
+    region: us-east-1
