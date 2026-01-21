@@ -2,9 +2,9 @@
 - hosts: localhost
   connection: local
   roles:
-  # - ec2-create
+   - ec2-create
   # - ec2-restart
   # - ec2-with-ebs
   # - ec2-terminate
   #  - remove-ebs
-    - ec2-with-keypair-count2
+  #  - ec2-with-keypair-count2
