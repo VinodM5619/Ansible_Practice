@@ -17,7 +17,7 @@
       ignore_errors: yes
 
     - name: Enable universe repository
-      ansible.builtin.command: add-apt-repository - y universe
+      ansible.builtin.command: add-apt-repository -y universe
       become: yes
 
     - name: Update apt cache
