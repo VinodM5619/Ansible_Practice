@@ -1,0 +1,19 @@
+---
+- name: S3 Bucket Versioning Example
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: list s3 buckets
+      amazon.aws.aws_s3_bucket_info:
+      register: result
+    - debug:
+        var: result.buckets
+    - name: Enable Versioning on S3 Bucket
+      amazon.aws.s3_bucket:
+        name: "{{ item.name }}"
+        versioning: yes
+      register: versioning_result
+      loop: "{{ result.buckets }}"
+      #when: "'my-versioned-bucket' in result.buckets | map(attribute='name') | list"
+    - debug:
+        var: versioning_result      
